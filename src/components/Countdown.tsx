@@ -1,9 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
+import { ChallengesContext } from '../contexts/ChallengesContext'
 import styles from '../styles/components/Countdown.module.css'
 
 let countdownTimeout: NodeJS.Timeout
 
 export function Countdown(){
+    const { startNewChallenge } = useContext(ChallengesContext)
+
     //uso o 25 porque a aplicação vai iniciar um ciclo de 25 minutos
     const [time, setTime] = useState(0.1 * 60)// 25 minutos em 60 segundos
     //estado para verificar se o contador esta rodando, no inicio vai estar parado, valor falso
@@ -43,6 +46,7 @@ export function Countdown(){
         } else if (isActive && time === 0){
             setHasFinished(true)
             setIsActive(false)
+            startNewChallenge()
         }
     }, [isActive, time])
 
