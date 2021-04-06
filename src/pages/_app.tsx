@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   //48:38
   return (
     <ChallengesProvider>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </ChallengesProvider>
   )
 }
