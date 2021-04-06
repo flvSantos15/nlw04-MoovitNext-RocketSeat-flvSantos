@@ -35,7 +35,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <a href="https://github.com/flvSantos15">
  <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://github.com/flvSantos15" title="Flavio Santos">🚀</a>
+ <sub><b>Flavio Santos</b></sub></a> <a href="https://github.com/flvSantos15" title="Flavio Santos">🚀</a>
 
 Feito com ❤️ por Flavio Santos 👋🏽 Entre em contato!
 
