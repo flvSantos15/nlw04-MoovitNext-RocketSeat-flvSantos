@@ -6,37 +6,37 @@
     },
     {
         "type": "body",
-        "description": "Estique seu braço contra o peito e puxe-o utilizando o outro braço por 10 segundos por braço",
+        "description": "Toque a ponta dos pés por 10 segundos por braço",
         "amount": 60
     },
     {
         "type": "body",
-        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por alguns segundos",
+        "description": "Vire seu rosto para o lado esquerdo por alguns segundos",
         "amount": 70
     },
     {
         "type": "body",
-        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por alguns segundos",
+        "description": "Vire seu rosto para o lado direito por alguns segundos",
         "amount": 60
     },
     {
         "type": "body",
-        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por alguns segundos",
+        "description": "Force seu joelho esquerdo contra o peito por 10 segundos",
         "amount": 100
     },
     {
         "type": "body",
-        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por alguns segundos",
+        "description": "Force seu joelho direito contra o peito por 10 segundos",
         "amount": 80
     },
     {
         "type": "body",
-        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por alguns segundos",
+        "description": "Toque o lado interno do seu cotovelo esquerdo no seu ombro direito.",
         "amount": 90
     },
     {
         "type": "body",
-        "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por alguns segundos",
+        "description": "Toque o lado interno do seu cotovelo direito no seu ombro esquerdo.",
         "amount": 60
     }
 ]

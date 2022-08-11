@@ -1,21 +1,20 @@
-import { useContext } from 'react'
-import { CountdownContext } from '../contexts/CountdownContext'
+import { useCountdown } from '../contexts/CountdownContext'
 import styles from '../styles/components/Countdown.module.css'
 
-export function Countdown(){
+export function Countdown() {
     const {
-        minutes, 
-        seconds, 
-        hasFinished, 
-        isActive, 
-        startCountdown, 
+        minutes,
+        seconds,
+        hasFinished,
+        isActive,
+        startCountdown,
         resetCountdown
-    } = useContext(CountdownContext)
+    } = useCountdown()
 
     const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('')// converto os numeros em String
     const [secondleft, secondRight] = String(seconds).padStart(2, '0').split('')
 
-    return(
+    return (
         <div>
             <div className={styles.countdownContainer}>
                 <div>
@@ -31,24 +30,24 @@ export function Countdown(){
 
             {hasFinished ? (
                 <button
-                    disabled 
+                    disabled
                     className={styles.countdownButton}
                 >
                     Ciclo Encerrado
                 </button>
-            ): (
+            ) : (
                 <>
                     {isActive ? (
-                        <button 
-                            type="button" 
+                        <button
+                            type="button"
                             className={`${styles.countdownButton} ${styles.countdownButtonIsActive}`}
                             onClick={resetCountdown}
                         >
                             Abandonar ciclo
                         </button>
                     ) : (
-                        <button 
-                            type="button" 
+                        <button
+                            type="button"
                             className={styles.countdownButton}
                             onClick={startCountdown}
                         >
