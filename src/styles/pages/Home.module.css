@@ -1,14 +1,49 @@
-.container{
+.containerDivDark {
+    background: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.containerDivLight {
+    background: var(--background);
+    color: var(--text);
+}
+
+.containerDark{
     height: 100vh;
     max-width: 992px;
     margin: 0 auto;
-    padding: 2.5rem 2rem;
+    padding: 1rem 2rem;
 
     display: flex;
     flex-direction: column;
+
+    background: var(--background-dark);
+    color: var(--text-dark);
 }
 
-.container section{
+.containerLight{
+    height: 100vh;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background: var(--background);
+    color: var(--text);
+}
+
+.containerLight section{
+    flex: 1;
+    margin-top: 22px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem; /* 6.25 * 16 = 100px */
+    align-content: center;
+}
+ .containerDark section{
     flex: 1;
     margin-top: 22px;
 

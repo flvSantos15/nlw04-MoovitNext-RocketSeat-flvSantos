@@ -3,7 +3,14 @@
     align-items: center;
     font-family: Rajdhani;
     font-weight: 600;
+}
+
+.light {
     color: var(--title);
+}
+
+.dark {
+    color: var(--white);
 }
 
 .countdownContainer > div {
@@ -13,11 +20,20 @@
     align-items: center;
     justify-content: space-evenly;
 
-    background: var(--white);
+    /* background: var(--white); */
+    /* background: var(--title); */
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     font-size: 8.5rem;
     text-align: center;
+}
+
+.boxNumberLight {
+    background: var(--white);
+}
+
+.boxNumberDark {
+    background: var(--title);
 }
 
 .countdownContainer > div span{

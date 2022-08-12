@@ -1,0 +1,30 @@
+.signInButton{
+  height: 2rem;
+  /* width: 2.5rem; */
+  width: 1.8rem;
+  border-radius: 5px;
+  background: var(--title);
+  border: 0;
+  padding: 0.5px 0.5px;
+  /* padding: 0.5px 0.5rem; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 2rem; */
+
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+
+  transition: filter 0.2s;
+}
+
+.signInButton:hover{
+  filter: brightness(0.8);
+ }
+
+.signInButton svg{
+  width: 20px;
+  height: 20px;
+}

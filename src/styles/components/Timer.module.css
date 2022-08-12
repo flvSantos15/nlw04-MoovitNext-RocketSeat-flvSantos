@@ -1,0 +1,27 @@
+.timerButton{
+  height: 2rem;
+  width: 1.8rem;
+  border-radius: 5px;
+  background: var(--title);
+  border: 0;
+  padding: 0.5px 0.5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+
+  transition: filter 0.2s;
+}
+
+.timerButton:hover{
+  filter: brightness(0.8);
+}
+
+.timerButton svg{
+  width: 20px;
+  height: 20px;
+}

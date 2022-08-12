@@ -1,7 +1,9 @@
 import { useCountdown } from '../contexts/CountdownContext'
+import { useTheme } from '../contexts/ThemeContext'
 import styles from '../styles/components/Countdown.module.css'
 
 export function Countdown() {
+    const { darkTheme } = useTheme()
     const {
         minutes,
         seconds,
@@ -17,14 +19,26 @@ export function Countdown() {
     return (
         <div>
             <div className={styles.countdownContainer}>
-                <div>
-                    <span>{minuteLeft}</span>
-                    <span>{minuteRight}</span>
+                <div
+                    className={!darkTheme ? styles.boxNumberLight : styles.boxNumberDark}
+                >
+                    <span className={!darkTheme ? styles.light : styles.dark}>
+                        {minuteLeft}
+                    </span>
+                    <span className={!darkTheme ? styles.light : styles.dark}>
+                        {minuteRight}
+                    </span>
                 </div>
-                <span>:</span>
-                <div>
-                    <span>{secondleft}</span>
-                    <span>{secondRight}</span>
+                <span className={!darkTheme ? styles.light : styles.dark}>:</span>
+                <div
+                    className={!darkTheme ? styles.boxNumberLight : styles.boxNumberDark}
+                >
+                    <span className={!darkTheme ? styles.light : styles.dark}>
+                        {secondleft}
+                    </span>
+                    <span className={!darkTheme ? styles.light : styles.dark}>
+                        {secondRight}
+                    </span>
                 </div>
             </div>
 

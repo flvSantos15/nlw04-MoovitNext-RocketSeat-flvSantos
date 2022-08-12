@@ -29,9 +29,6 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     const minutes = Math.floor(time / 60) // calculo os minutos
     const seconds = time % 60// o resto da divisão do tempo por 60 serão os segundos
 
-    console.log(time, 'time')
-    console.log(seconds, 'seconds')
-
     function startCountdown() {
         setIsActive(true)
     }

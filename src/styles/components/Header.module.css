@@ -1,0 +1,69 @@
+.headerContainer{
+  height: 5rem;
+  width: 100%;
+  border-bottom: 1px solid var(--gray-300);
+  margin-bottom: 1rem;
+}
+.headerContent{
+  max-width: 1120px;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerContentProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 17rem;
+}
+
+.profileContainer{
+  display: flex;
+  align-items: center;
+}
+
+.profileContainer > img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.profileContainer div{
+  margin-left: 1rem;
+
+  /* Essa parte não é original do co´digo do diego*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.profileContainer div strong{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.light {
+  color: var(--title);
+}
+
+.dark {
+  color: var(--title-dark);
+}
+
+.profileContainer div p{
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.profileContainer div p img{
+  margin-right: 0.4rem;
+}
+
+

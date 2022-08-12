@@ -7,15 +7,30 @@
 :root{
     --white: #fff;
     --background: #f2f3f5;
+    --background-dark: #29292c;
     --gray-line: #dcdde0;
+    --gray-line-dark: #1f2729;
     --text:#666666;
+    --text-dark:#f2f3f3;
     --text-highlght: #b3b9ff;
     --title: #2e384d;
+    --title-dark: #fff;
     --red: #e83f5b;
     --green: #4cd62b;
     --blue: #5965e0;
     --blue-dark: #4953b8;
-    --blue-twitter: #2aa9e0
+    --blue-twitter: #2aa9e0;
+
+    /* pode ser o modo dark */
+    --gray-100: #e1e1e6;
+    --gray-300: #a8a8b3;
+    --gray-700: #323238;
+    --gray-800: #29292c;
+    --gray-850: #1f2729;
+    --gray-900: #121214;
+
+    --cyan-500: #61dafb;
+    --yellow-500: #eba417;
 }
 
 @media(max-width: 1080px){
@@ -30,10 +45,6 @@
     }
 }
 
-body{
-    background: var(--background);
-    color: var(--text);
-}
 body, input, textarea, button{
     font: 400 16rem "Inter", sans-serif;
 }
