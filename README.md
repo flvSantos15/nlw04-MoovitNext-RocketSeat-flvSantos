@@ -53,10 +53,9 @@
     - [x] Inicia/Abandona ciclo de exercicio
     - [x] Avisa com som quando um ciclo encerra
     - [ ] Persiste informaçoes através de cookies
-
-- [x] Dark Mode
-- [] Loggin with GitHub Account
-- [] Diferents time for the countdown
+    - [x] Dark Mode
+    - [] Loggin with GitHub Account
+    - [] Diferents time for the countdown
 </div>
 
 <div id='author'>
