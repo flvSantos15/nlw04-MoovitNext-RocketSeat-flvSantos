@@ -1,5 +1,5 @@
 import { useChallenges } from '../contexts/ChallengesContext'
-import styles from '../styles/components/ExperienceBar.module.css'
+import styles from '../styles/components/Experiencebar.module.css'
 
 export function ExperienceBar() {
     const { currentExperience, experienceToNextLevel } = useChallenges()

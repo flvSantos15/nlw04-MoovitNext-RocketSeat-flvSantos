@@ -3,7 +3,7 @@ import { SignInButton } from './SignInButton'
 
 import { useTheme } from '../contexts/ThemeContext'
 import { ThemeButton } from './ThemeButton'
-import { Timer } from './Timer'
+// import { Timer } from './Timer'
 
 export function Header() {
   const { darkTheme } = useTheme()
@@ -27,7 +27,7 @@ export function Header() {
             </div>
           </div>
           <SignInButton />
-          <Timer />
+          {/* <Timer /> */}
           <ThemeButton />
         </div>
       </div>
